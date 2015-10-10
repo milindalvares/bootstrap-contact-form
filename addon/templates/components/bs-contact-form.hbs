@@ -1,0 +1,10 @@
+{{#each fields as |field|}}
+	{{#unless field.hidden}}
+		{{bootstrap-input field=field}}
+	{{/unless}}
+{{/each}}
+
+<div class="form-group">
+	<button class="btn btn-primary" id="submitBtn" {{action 'sendMail'}}>
+		{{btnText}}</button>
+</div>

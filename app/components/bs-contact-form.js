@@ -1,0 +1,1 @@
+export { default } from 'bootstrap-contact-form/components/bs-contact-form';
